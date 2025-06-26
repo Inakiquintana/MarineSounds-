@@ -1,49 +1,110 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Marine Sounds - Espectrogramas</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: sans-serif;
+      margin: 20px;
+      background: #fafafa;
+      color: #222;
+    }
+    h2 {
+      margin: 10px 0 30px 0;
+      font-weight: normal;
+    }
+    h2 em {
+      font-style: italic;
+    }
+    .category-img {
+      height: 100px;
+      margin-top: 40px;
+    }
+    .entry {
+      margin-bottom: 40px;
+    }
+    .entry img {
+      width: 80%;
+      max-width: 800px;
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    }
+    audio {
+      margin-top: 10px;
+      outline: none;
+    }
+  </style>
 </head>
-<body style="text-align: center; font-family: sans-serif;">
+<body>
 
   <!-- DELFINIDAE -->
-  <img src="img/delfin.png" alt="Delphinid" style="height: 100px; margin-top: 40px;">
+  <img src="img/delfin.png" alt="Delphinid" class="category-img" />
   <h2><em>Delphinidae</em></h2>
-  <div style="margin-bottom: 30px;">
-    <img src="DELFINID/delfinid1.png" style="width: 80%; max-width: 800px;"><br>
-    <audio controls><source src="DELFINID/delfinid1.wav" type="audio/wav"></audio>
+  <div class="entry">
+    <img src="DELFINID/delfinid1.png" alt="Delphinid Spectrogram 1" />
+    <br />
+    <audio controls>
+      <source src="DELFINID/delfinid1.wav" type="audio/wav" />
+      Tu navegador no soporta audio.
+    </audio>
   </div>
-  <div style="margin-bottom: 30px;">
-    <img src="DELFINID/delfinid2.png" style="width: 80%; max-width: 800px;"><br>
-    <audio controls><source src="DELFINID/delfinid2.wav" type="audio/wav"></audio>
+  <div class="entry">
+    <img src="DELFINID/delfinid2.png" alt="Delphinid Spectrogram 2" />
+    <br />
+    <audio controls>
+      <source src="DELFINID/delfinid2.wav" type="audio/wav" />
+      Tu navegador no soporta audio.
+    </audio>
   </div>
 
   <!-- MEGAPTERA -->
-  <img src="img/ballena.png" alt="Megaptera" style="height: 100px; margin-top: 40px;">
+  <img src="img/ballena.png" alt="Megaptera" class="category-img" />
   <h2><em>Megaptera novaeangliae</em></h2>
-  <div style="margin-bottom: 30px;">
-    <img src="MEGNOV/megnov1.png" style="width: 80%; max-width: 800px;"><br>
-    <audio controls><source src="MEGNOV/megnov1.wav" type="audio/wav"></audio>
+  <div class="entry">
+    <img src="MEGNOV/megnov1.png" alt="Megaptera Spectrogram 1" />
+    <br />
+    <audio controls>
+      <source src="MEGNOV/megnov1.wav" type="audio/wav" />
+      Tu navegador no soporta audio.
+    </audio>
   </div>
-  <div style="margin-bottom: 30px;">
-    <img src="MEGNOV/megnov2.png" style="width: 80%; max-width: 800px;"><br>
-    <audio controls><source src="MEGNOV/megnov2.wav" type="audio/wav"></audio>
+  <div class="entry">
+    <img src="MEGNOV/megnov2.png" alt="Megaptera Spectrogram 2" />
+    <br />
+    <audio controls>
+      <source src="MEGNOV/megnov2.wav" type="audio/wav" />
+      Tu navegador no soporta audio.
+    </audio>
   </div>
 
   <!-- SHIPS -->
-  <img src="img/barco.png" alt="Ships" style="height: 100px; margin-top: 40px;">
+  <img src="img/barco.png" alt="Ships" class="category-img" />
   <h2>Passing ships</h2>
-  <div style="margin-bottom: 30px;">
-    <img src="SHIP/ship1.png" style="width: 80%; max-width: 800px;"><br>
-    <audio controls><source src="SHIP/ship1.wav" type="audio/wav"></audio>
+  <div class="entry">
+    <img src="SHIP/ship1.png" alt="Ship Spectrogram 1" />
+    <br />
+    <audio controls>
+      <source src="SHIP/ship1.wav" type="audio/wav" />
+      Tu navegador no soporta audio.
+    </audio>
   </div>
-  <div style="margin-bottom: 30px;">
-    <img src="SHIP/ship2.png" style="width: 80%; max-width: 800px;"><br>
-    <audio controls><source src="SHIP/ship2.wav" type="audio/wav"></audio>
+  <div class="entry">
+    <img src="SHIP/ship2.png" alt="Ship Spectrogram 2" />
+    <br />
+    <audio controls>
+      <source src="SHIP/ship2.wav" type="audio/wav" />
+      Tu navegador no soporta audio.
+    </audio>
   </div>
-  <div style="margin-bottom: 30px;">
-    <img src="SHIP/ship3.png" style="width: 80%; max-width: 800px;"><br>
-    <audio controls><source src="SHIP/ship3.wav" type="audio/wav"></audio>
+  <div class="entry">
+    <img src="SHIP/ship3.png" alt="Ship Spectrogram 3" />
+    <br />
+    <audio controls>
+      <source src="SHIP/ship3.wav" type="audio/wav" />
+      Tu navegador no soporta audio.
+    </audio>
   </div>
 
 </body>
