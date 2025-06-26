@@ -21,15 +21,24 @@
       font-style: italic;
     }
 
+    /* Imagenes de categoría (banners arriba) */
     .category-img {
       height: 130px;
       margin-top: 50px;
     }
 
+    /* Solo barco.png se hace más grande */
+    .barco-img {
+      height: 180px; /* Más grande */
+      margin-top: 60px;
+    }
+
+    /* Entradas (contenedor) */
     .entry {
       margin-bottom: 50px;
     }
 
+    /* Imagenes de espectrogramas, mismas para todos */
     .entry img {
       width: 90%;
       max-width: 1000px;
@@ -37,11 +46,7 @@
       box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
     }
 
-    .entry.ship img {
-      width: 95%;
-      max-width: 1200px;
-    }
-
+    /* Controles de audio grandes y anchos */
     audio {
       margin-top: 15px;
       width: 100%;
@@ -91,23 +96,23 @@
   </div>
 
   <!-- SHIPS -->
-  <img src="img/barco.png" alt="Ships" style="height: 180px; margin-top: 60px;" />
+  <img src="img/barco.png" alt="Ships" class="barco-img" />
   <h2>Passing ships</h2>
-  <div class="entry ship">
+  <div class="entry">
     <img src="SHIP/ship1.png" alt="Ship Spectrogram 1" />
     <br />
     <audio controls>
       <source src="SHIP/ship1.wav" type="audio/wav" />
     </audio>
   </div>
-  <div class="entry ship">
+  <div class="entry">
     <img src="SHIP/ship2.png" alt="Ship Spectrogram 2" />
     <br />
     <audio controls>
       <source src="SHIP/ship2.wav" type="audio/wav" />
     </audio>
   </div>
-  <div class="entry ship">
+  <div class="entry">
     <img src="SHIP/ship3.png" alt="Ship Spectrogram 3" />
     <br />
     <audio controls>
@@ -117,5 +122,6 @@
 
 </body>
 </html>
+
 
 
