@@ -21,24 +21,20 @@
       font-style: italic;
     }
 
-    /* Imagenes de categoría (banners arriba) */
     .category-img {
       height: 130px;
       margin-top: 50px;
     }
 
-    /* Solo barco.png se hace más grande */
     .barco-img {
-      height: 180px; /* Más grande */
+      height: 180px;
       margin-top: 60px;
     }
 
-    /* Entradas (contenedor) */
     .entry {
       margin-bottom: 50px;
     }
 
-    /* Imagenes de espectrogramas, mismas para todos */
     .entry img {
       width: 90%;
       max-width: 1000px;
@@ -46,14 +42,21 @@
       box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
     }
 
-    /* Controles de audio grandes y anchos */
     audio {
       margin-top: 15px;
-      width: 100%;
+      width: 90%;
       max-width: 1000px;
-      height: 60px;
-      transform: scale(1.5);
+      height: 40px;
+      transform: scale(1);
       cursor: pointer;
+    }
+
+    @media (max-width: 600px) {
+      audio {
+        width: 100%;
+        height: 36px;
+        transform: scale(1);
+      }
     }
   </style>
 </head>
@@ -122,6 +125,7 @@
 
 </body>
 </html>
+
 
 
 
